@@ -1,0 +1,34 @@
+{
+  "apis": [
+    {
+      "id": "petstore",
+      "name": "Petstore API",
+      "description": "The classic Swagger Petstore example. CRUD operations for pets, store inventory, and user management.",
+      "status": "stable",
+      "category": "Example",
+      "tags": ["pets", "store", "users"],
+      "versions": [{ "id": "v1", "label": "v1.0.19", "file": "apis/petstore/v1.yaml" }]
+    },
+    {
+      "id": "blog",
+      "name": "Blog API",
+      "description": "Manage blog posts, comments, and author profiles. Supports pagination, filtering by tag or author. Versioned — v1 and v2 available.",
+      "status": "stable",
+      "category": "Content",
+      "tags": ["posts", "comments", "authors"],
+      "versions": [
+        { "id": "v1", "label": "v1.0", "file": "apis/blog/v1.yaml" },
+        { "id": "v2", "label": "v2.0", "file": "apis/blog/v2.yaml" }
+      ]
+    },
+    {
+      "id": "auth",
+      "name": "Auth API",
+      "description": "JWT authentication service. Register, login, token refresh, password reset, and profile management.",
+      "status": "stable",
+      "category": "Security",
+      "tags": ["jwt", "oauth", "users"],
+      "versions": [{ "id": "v2", "label": "v2.0", "file": "apis/auth/v2.yaml" }]
+    }
+  ]
+}
